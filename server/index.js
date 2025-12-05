@@ -80,6 +80,7 @@ io.on('connection', (socket) => {
   })
 })
 
-server.listen(4000, () => {
-  console.log('Clutch server running on http://localhost:4000')
+const PORT = process.env.PORT || 4000
+server.listen(PORT, () => {
+  console.log(`Clutch server running on http://localhost:${PORT}`)
 })
