@@ -1,0 +1,5 @@
+
+> clutch-server@0.0.1 start
+> node index.js
+
+Clutch server running on http://localhost:4000
